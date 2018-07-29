@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Data Visualization Final Project</title>
+	
+		<meta charset="utf-8">
+		<style>
+			
+		</style>
+		
+		<script src="//d3js.org/d3.v3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		
+
+		<div id = "wrapper"> 
+			<div id = "banner">	
+				<h2><u>About the narrative visualisation on deaths due to drug poisoning in five US states from 2011 to 2016</u></h2>
+				<p></p>
+				<p><b>Introduction:</b></p>
+
+				The visualization followed the 'Interactive Slideshow' hybrid narrative structure. It is a very simple visualization. The author-driven content is in the main page where a simple bubble chart shows the comparison of number of deaths in five US states due to drug poisoning, and total numbers on the top of each bubble or circle. The states are Connecticut, Maryland, New Jersey, New York and Virginia respectively. More author driven contents are in the charts inside the slides or pages of each state which shows the years through x-axis and number of deaths through the y-axis, and the exact number of deaths is displayed on the bar for each year. Now comes the reader-driven content. Reader can check the main page to understand the message, and if it seems interesting then the user can navigate through the other slides or scenes or pages. When user moves to a page of a particular state, say 'Connecticut' is the state, then user can see the bars representing the number of deaths over a particular year in Connecticut. Furthermore, when hovering over the bars, user can read through the displayed tooltip where population of the state at that year will be visible.
+
+				</p>
+
+				<p><b>Scenes:</b><br>
+				There are a total 6 scenes in this visualization. Each of the pages including the main page can be considered as a scene.<br>
+				<ul type="disc">
+				<li> It is the main page where the circles or bubbles show the comparison of total number of deaths due to drug poisoning in the 5 US states over the years 2011 to 2016.</li>
+				<li> This scene visualizes the contents for the state - Connecticut.</li>
+				<li> This scene visualizes the contents for the state - Maryland.</li>
+				<li> This scene visualizes the contents for the state - New Jersey.</li>
+				<li> This scene visualizes the contents for the state - New York.</li>
+				<li> This scene visualizes the contents for the state - Virginia.</li>	
+				</ul>
+
+				</p>
+
+
+				<p><b>Annotations:</b><br>
+					<ul type="disc">
+				<li> Total number of deaths due to drug poisoning are shown in the main page for each state from 2011 to 2016.</li>
+				<li> Number of deaths due to drug poisoning are shown in the bars for each year.</li>
+				<li> Number of population of the state at a particular year can be seen when hovering over the bars.</li>
+				    </ul>
+				</p>
+
+				<p><b>Parameters:</b>
+					<ul type="disc">
+				<li> Navigation link to any page for each state or to the main page can be considered as parameters.</li>
+				<li> Years are shown through the x-axis and number of deaths are shown through the y-axis, these are parameters.</li>
+				<li> The bar charts and the bubble chart are parameters as well.</li>
+					</ul>
+				</p>
+				
+				<p><b>Triggers:</b><br>
+					<ul type="disc">
+				<li> When navigating to a sate scene, user can see the bar chart with contents for that selected state only. Changing states and years shows different contents respectively.</li>
+				<li> When hovering over each of the bars, a tooltip displays the number of population in that year for the selected state only.</li>
+					</ul>
+				</p>
+
+			</div>
+					
+		</div>
+
+		<br>
+
+	<button id="viz1" onclick="location.href='index.html'">Back to Main Page</button>
+
+
+	</body>
+</html>

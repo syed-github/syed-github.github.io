@@ -1,0 +1,95 @@
+svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    font: Times;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#wrapper #navbar {
+	height: 50px;
+	width: 650px;
+/*	background-color: #999999; */
+}
+
+nav { 
+	height:50px; padding:50px 0 0 80px;
+	display: block;
+    	float: left;
+    	width: 550px;
+    	margin-bottom: 0px; 
+	text-align:center; 
+	z-index:50; 
+	background-image: url(../PTPImages/Navbackgroup.jpg);
+	
+	/*background-color: #999999; */         
+}
+
+.nav ul{
+    	margin: 0;
+    	padding: 0;
+	Height: 50px;
+}
+.nav li{
+	position: relative;
+	padding:20px, 0px, 0px, 50px;
+	float: left;
+	color: #000000;
+	list-style: none;
+	background-color: lightblue;
+	width: 80px;
+	Height: 45px;
+	text-align:center;
+	text-vertical-align:middle;
+	font-size: 12px;
+	z-index:30;
+}
+.nav li a {
+    display: block;        
+    padding: 20px 0px 0px 0px;
+    color: #000000;
+    text-decoration: none;
+	z-index:30;
+}
+ 
+.nav li:hover {
+	background-color: cyan;
+}
+.nav li ul {
+    background-color: rgba(231, 124, 64, 1);
+    display: none;
+    position: absolute;
+    top: 100%;
+	z-index:30;
+}
+.nav li:hover ul {
+    display: block;
+    right: 0;
+    left: 0;
+    top: 100%;
+}
+#viz1 {
+	position: relative;
+	padding:20px, 0px, 0px, 50px;
+	float: left;
+	color: #000000;
+	list-style: none;
+	background-color: lightblue;
+	width: 150px;
+	Height: 45px;
+	text-align:center;
+	text-vertical-align:middle;
+	font-size: 16px;
+	z-index:30;
+}
